@@ -1,5 +1,6 @@
 const {
-  DB_USER = '', DB_PASSWORD = '', DB_NAME = 'bcr', DB_HOST = '127.0.0.1', DB_PORT = '5432', PGDATABASE, PGHOST, PGPORT, PGUSER, PGPASSWORD,
+  DB_USER = '', DB_PASSWORD = '', DB_NAME = 'bcr',
+  DB_HOST = '127.0.0.1', DB_PORT = '5432', PGDATABASE, PGHOST, PGPORT, PGUSER, PGPASSWORD,
 } = process.env;
 
 module.exports = {
