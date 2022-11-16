@@ -9,7 +9,7 @@
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
     "db:migrate": "sequelize db:migrate",
-    "db:seed": "sequelize db:seed:undo:all && sequelize db:seed:all",
+    "db:seed": "sequelize db:seed:all",
     "test": "jest --setupFiles dotenv/config --coverage --forceExit",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
