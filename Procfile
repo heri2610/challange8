@@ -1,2 +1,2 @@
 web: npm start
-relase: npm run db:seed
+release: npm run db:seed
